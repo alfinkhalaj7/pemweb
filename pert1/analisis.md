@@ -7,7 +7,7 @@
 - Membuat kembali src dan menambahkan index.html.  
 - Memodifikasi nginx.conf agar sesuai dengan kebutuhan server.  
 - Membuat file div.html dengan struktur dasar HTML (html:5).  
-- Mengakses proyek di localhost.  
+- Mengakses proyek di localhost.
 
 ### *2. Who (Siapa yang melakukannya?)*  
 - Developer atau siapa pun yang ingin meng-host website statis menggunakan Docker dan Nginx.  

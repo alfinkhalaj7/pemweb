@@ -1,2 +1,5 @@
-pembelajaran tentang bootstrap
-suruh mengcopy nginx,env, dan src
+-pembelajaran tentang bootstrap
+-suruh mengcopy nginx,env, dan src
+-Membuka bootsrap dan meng copy CDN link dan di taru ke index.html
+-Lanjut dengan sesuaikan dengan vscode pak jep untuk membuat website pribadi (my portofolio)
+-setelah itu ada latihan dari dosen dengan membuat website sendiri atau desain lebih bagus dari sebelumnya 
