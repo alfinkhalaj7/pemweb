@@ -28,7 +28,8 @@
 <nav class="navbar navbar-expand-xl navbar-light text-center py-3">
 <div class="container">
 <a class="navbar-brand" href="index.html">
-<img alt="Wallet" class="img-fluid" decoding="async" loading="prelaod" src="{{ asset('front/assets/images/logo.png') }}" width="160"/>
+<img alt="Wallet" class="img-fluid" decoding="async" loading="prelaod" src="{{ asset('front/assets/images/about-us.png') }}" width="80"/>
+
 </a>
 <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"> <span class="navbar-toggler-icon"></span>
 </button>
@@ -93,13 +94,12 @@
 <div class="row align-items-center justify-content-center">
 <div class="col-lg-6 mb-5 mb-lg-0">
 <div class="block text-center text-lg-start pe-0 pe-xl-5">
-<h1 class="text-capitalize mb-4">SISTEM MANAJEMEN GURU DAN MATA PELAJARAN</h1>
-<p class="mb-4">Hallo Selamat Datangg....;)</p> <a class="btn btn-primary" data-bs-target="#applyLoan" data-bs-toggle="modal"></span></a>
+
+
 </div>
 </div>
 <div class="col-lg-6">
 <div class="ps-lg-5 text-center">
-<img alt="banner image" class="w-100" decoding="async" loading="lazy" src="{{ asset('front/assets/images/about-us.png') }}"/>
 </div>
 </div>
 </div>

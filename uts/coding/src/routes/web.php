@@ -34,3 +34,16 @@ Route::get('/', function () {
     $gurus = Guru::with('mapels')->get();
     return view('publik.index', compact('gurus'));
 });
+
+Route::get('/', function () {
+    return view('landing');
+});
+
+Route::get('/guru', function () {
+    $gurus = Guru::with('mapels')->get();
+    return view('publik.index', compact('gurus')); // halaman daftar guru
+});
+
+Route::get('/', function () {
+    return view('publik.index_awal'); // halaman awal dengan tombol
+});

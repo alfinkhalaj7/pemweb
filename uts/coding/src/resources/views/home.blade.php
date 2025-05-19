@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Website Guru</title>
+  <title>Data Guru</title>
   <link rel="stylesheet" href="{{ asset('front/assets/css/style.css') }}">
 </head>
 <body>
