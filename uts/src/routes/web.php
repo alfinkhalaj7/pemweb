@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\GuruPublikController;
 use Illuminate\Support\Facades\Route;
 use Livewire\Livewire;
 
@@ -16,6 +17,19 @@ Livewire::setScriptRoute(function ($handle) {
 /*
 / END
 */
+Route::get('/', [GuruPublikController::class, 'index']);
+
+
+Route::get('/lihat-guru', [GuruPublikController::class, 'index']);
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home'); // Halaman awal
+});
+
+Route::get('/lihat-guru', [GuruPublikController::class, 'index'])->name('lihat.guru');
+
+
+Route::get('/', function () {
+    $gurus = Guru::with('mapels')->get();
+    return view('publik.index', compact('gurus'));
 });
