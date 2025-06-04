@@ -1,0 +1,1 @@
+Di dalam folder img itu sudah gua ubah semua dengan foto yang menyesuaikan dengan tema kita tinggal pasang saja
